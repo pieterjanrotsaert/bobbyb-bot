@@ -1,0 +1,28 @@
+{
+  "name": "bobbyb-bot",
+  "version": "1.0.0",
+  "description": "Bobby B is the rightful king.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieterjanrotsaert/bobbyb-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pieterjanrotsaert/bobbyb-bot/issues"
+  },
+  "homepage": "https://github.com/pieterjanrotsaert/bobbyb-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4"
+  }
+}
