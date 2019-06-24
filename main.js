@@ -35,7 +35,7 @@ bot.on('message', msg => {
         else 
             msg.channel.send("I do not recognize this command, mortal.");
     }
-    else if(content.indexOf("bobby b") !== -1 || content.indexOf("bobbyb") !== -1 || content.indexOf("robert b") !== -1 || content.indexOf("baratheon") !== -1
+    else if(content.indexOf("bobby b") !== -1 || content.indexOf("bobbyb") !== -1 || content.indexOf("robert b") !== -1 || content.indexOf("baratheon") !== -1 ||
             content.indexOf("bobby-b") !== -1){
         if(bobbyEnabled){
             var idx = Math.floor(Math.random() * globals.BOBBY_QUOTES.length);
