@@ -3,7 +3,7 @@
 const BOT_TOKEN = process.env.BOT_TOKEN
 const BOT_CLIENTID = process.env.BOT_CLIENTID
 
-const SERVER_ID = "162595925343076352" // MemeNation
+const SERVER_ID = process.env.BOT_SERVERID
 
 
 const BOBBY_QUOTES = [  
